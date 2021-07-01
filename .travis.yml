@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "stable"
+
+script:
+  - npm install
+  - npm i mocha chai
+  - npm test
