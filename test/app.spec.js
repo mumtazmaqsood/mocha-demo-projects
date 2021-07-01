@@ -5,7 +5,7 @@ const expect = require("chai").expect;
 
 describe('TestSuite-1', () => {
     it('add(2, 3) should be 5', () => {
-        expect(add(2,3)).to.be.equal(50);
+        expect(add(2,3)).to.be.equal(5);
     });
 });
 
