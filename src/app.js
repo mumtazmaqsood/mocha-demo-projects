@@ -11,5 +11,5 @@ function mul(a, b){
     return a * b;
 }
 
-module.exports = {add, sub}
+module.exports = {add, sub, mul}
 console.log(module);
