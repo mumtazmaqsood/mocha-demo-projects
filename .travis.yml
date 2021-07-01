@@ -6,6 +6,4 @@ script:
   - npm install
   - npm i mocha chai
   - npm test
-deploy:
-  on:
-    branch: master
+
