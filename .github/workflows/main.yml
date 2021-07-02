@@ -32,7 +32,22 @@ jobs:
           node-version: 12 
       - name: intall mocha
         run: npm i mocha chai
+        
+      - name: install mochawesome reports
+        run: npm i mochawesome
+        
 
       # Runs a set of commands using the runners shell
       - name: Run Test
         run: npm test
+      
+      # install surge and then publish reporting
+      - name: install surge
+        run: npm install -g surge
+      - name: run surge
+        run:  surge ./customReportDir/ helpful-letter1.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      
+      
+      
+      
+      
