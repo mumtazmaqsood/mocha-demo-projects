@@ -12,4 +12,4 @@ function mul(a, b){
 }
 
 module.exports = {add, sub, mul}
-console.log(module);
+//console.log(module);
