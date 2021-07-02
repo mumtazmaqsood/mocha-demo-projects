@@ -11,5 +11,9 @@ function mul(a, b){
     return a * b;
 }
 
-module.exports = {add, sub, mul}
+function div(a, b){
+    return a / b;
+}
+
+module.exports = {add, sub, mul, div}
 //console.log(module);

@@ -1,15 +1,15 @@
 {
   "stats": {
-    "suites": 6,
-    "tests": 8,
-    "passes": 7,
+    "suites": 7,
+    "tests": 9,
+    "passes": 9,
     "pending": 0,
-    "failures": 1,
-    "start": "2021-07-02T11:15:18.796Z",
-    "end": "2021-07-02T11:15:19.125Z",
-    "duration": 329,
-    "testsRegistered": 8,
-    "passPercent": 87.5,
+    "failures": 0,
+    "start": "2021-07-02T11:37:47.688Z",
+    "end": "2021-07-02T11:37:47.836Z",
+    "duration": 148,
+    "testsRegistered": 9,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "32886696-b1f5-401a-9596-5854f7523170",
+      "uuid": "0ecfe0ed-267a-458f-b7c2-0ff7869595ea",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e52b52ac-1ad4-4e3d-9667-03626b0b1d1a",
+          "uuid": "52545f78-3c0b-4d33-85ed-b0874ea395da",
           "title": "Suite-2",
           "fullFile": "G:\\mocka-demo-projects\\test\\app.hooks.js",
           "file": "\\test\\app.hooks.js",
@@ -45,8 +45,8 @@
               "context": null,
               "code": "console.log(\"Before Testcase\")",
               "err": {},
-              "uuid": "15bfd1f7-85e7-47cf-b256-4242e7b2da90",
-              "parentUUID": "e52b52ac-1ad4-4e3d-9667-03626b0b1d1a",
+              "uuid": "5e9ad756-449b-4a33-949b-b3a371fe6b5d",
+              "parentUUID": "52545f78-3c0b-4d33-85ed-b0874ea395da",
               "isHook": true,
               "skipped": false
             },
@@ -54,7 +54,7 @@
               "title": "\"before each\" hook in \"Suite-2\"",
               "fullTitle": "Suite-2 \"before each\" hook in \"Suite-2\"",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": null,
               "speed": null,
               "pass": false,
@@ -63,8 +63,8 @@
               "context": null,
               "code": "console.log(\"Before Each Testcase\")",
               "err": {},
-              "uuid": "e2b3c018-9b91-444b-871a-26f2e001b41c",
-              "parentUUID": "e52b52ac-1ad4-4e3d-9667-03626b0b1d1a",
+              "uuid": "bd768a7e-ad4b-4153-8cfb-19d8c0d5fdcf",
+              "parentUUID": "52545f78-3c0b-4d33-85ed-b0874ea395da",
               "isHook": true,
               "skipped": false
             }
@@ -83,8 +83,8 @@
               "context": null,
               "code": "console.log(\"After Testcase\")",
               "err": {},
-              "uuid": "8be87833-44de-46cc-a6f3-d1631a363a83",
-              "parentUUID": "e52b52ac-1ad4-4e3d-9667-03626b0b1d1a",
+              "uuid": "7c4b6bc4-df38-42c5-9c12-042839aa9a05",
+              "parentUUID": "52545f78-3c0b-4d33-85ed-b0874ea395da",
               "isHook": true,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "\"after each\" hook in \"Suite-2\"",
               "fullTitle": "Suite-2 \"after each\" hook in \"Suite-2\"",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": null,
               "speed": null,
               "pass": false,
@@ -101,8 +101,8 @@
               "context": null,
               "code": "console.log(\"After Each Testcase\")",
               "err": {},
-              "uuid": "a0be6251-b699-4fda-8ec7-553a31470c96",
-              "parentUUID": "e52b52ac-1ad4-4e3d-9667-03626b0b1d1a",
+              "uuid": "ad33e40d-3641-489d-af4f-17d974852707",
+              "parentUUID": "52545f78-3c0b-4d33-85ed-b0874ea395da",
               "isHook": true,
               "skipped": false
             }
@@ -112,7 +112,7 @@
               "title": "add(10, 20) should be equal 30",
               "fullTitle": "Suite-2 add(10, 20) should be equal 30",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -121,8 +121,8 @@
               "context": null,
               "code": "expect(add(10,20)).to.be.equal(30);",
               "err": {},
-              "uuid": "30de5f3d-1e80-4efb-921c-b6fa9242fa87",
-              "parentUUID": "e52b52ac-1ad4-4e3d-9667-03626b0b1d1a",
+              "uuid": "684d1df6-e57a-4dc2-addf-e0abea79a53e",
+              "parentUUID": "52545f78-3c0b-4d33-85ed-b0874ea395da",
               "isHook": false,
               "skipped": false
             },
@@ -139,27 +139,27 @@
               "context": null,
               "code": "expect(sub(20, 10)).to.be.equal(10)",
               "err": {},
-              "uuid": "ef563981-c2e4-4f62-866b-ce41358e6d71",
-              "parentUUID": "e52b52ac-1ad4-4e3d-9667-03626b0b1d1a",
+              "uuid": "0e402c67-2216-4239-bc2b-73eb5244fbc2",
+              "parentUUID": "52545f78-3c0b-4d33-85ed-b0874ea395da",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "30de5f3d-1e80-4efb-921c-b6fa9242fa87",
-            "ef563981-c2e4-4f62-866b-ce41358e6d71"
+            "684d1df6-e57a-4dc2-addf-e0abea79a53e",
+            "0e402c67-2216-4239-bc2b-73eb5244fbc2"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "e39fdd4f-d55c-4306-8fb3-7316b19b8034",
+          "uuid": "d320fd4d-8ddc-466e-98ca-e10cadb6167e",
           "title": "TDD suite",
           "fullFile": "G:\\mocka-demo-projects\\test\\app.hooks.js",
           "file": "\\test\\app.hooks.js",
@@ -168,7 +168,7 @@
               "title": "\"before all\" hook in \"TDD suite\"",
               "fullTitle": "TDD suite \"before all\" hook in \"TDD suite\"",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": null,
               "speed": null,
               "pass": false,
@@ -177,8 +177,8 @@
               "context": null,
               "code": "console.log(\"before test case suiteSetup\")",
               "err": {},
-              "uuid": "6eb8ee61-a267-4a4f-9e66-b00a8472408d",
-              "parentUUID": "e39fdd4f-d55c-4306-8fb3-7316b19b8034",
+              "uuid": "b2f32396-3849-40f0-8320-fb411d652e16",
+              "parentUUID": "d320fd4d-8ddc-466e-98ca-e10cadb6167e",
               "isHook": true,
               "skipped": false
             },
@@ -186,7 +186,7 @@
               "title": "\"before each\" hook in \"TDD suite\"",
               "fullTitle": "TDD suite \"before each\" hook in \"TDD suite\"",
               "timedOut": false,
-              "duration": 3,
+              "duration": 0,
               "state": null,
               "speed": null,
               "pass": false,
@@ -195,8 +195,8 @@
               "context": null,
               "code": "console.log(\"before each test case setup\")",
               "err": {},
-              "uuid": "a9b55f03-2699-48b7-9e9a-ab988fe0ff22",
-              "parentUUID": "e39fdd4f-d55c-4306-8fb3-7316b19b8034",
+              "uuid": "f79a7d50-da29-4dcb-b0b6-d8a6f7ddec7c",
+              "parentUUID": "d320fd4d-8ddc-466e-98ca-e10cadb6167e",
               "isHook": true,
               "skipped": false
             }
@@ -206,7 +206,7 @@
               "title": "\"after all\" hook in \"TDD suite\"",
               "fullTitle": "TDD suite \"after all\" hook in \"TDD suite\"",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": null,
               "speed": null,
               "pass": false,
@@ -215,8 +215,8 @@
               "context": null,
               "code": "console.log(\"after test case suiteSetup\")",
               "err": {},
-              "uuid": "273b12df-027b-4749-9b6a-87141b253d72",
-              "parentUUID": "e39fdd4f-d55c-4306-8fb3-7316b19b8034",
+              "uuid": "ecbfe56f-d867-4b2c-82c0-f23040bcc72d",
+              "parentUUID": "d320fd4d-8ddc-466e-98ca-e10cadb6167e",
               "isHook": true,
               "skipped": false
             },
@@ -233,8 +233,8 @@
               "context": null,
               "code": "console.log(\"after each test case teardown\")",
               "err": {},
-              "uuid": "60cf14ee-4d24-4b19-8ddd-8ac672e49de9",
-              "parentUUID": "e39fdd4f-d55c-4306-8fb3-7316b19b8034",
+              "uuid": "82e96daf-b607-4c85-ac40-533944f958b4",
+              "parentUUID": "d320fd4d-8ddc-466e-98ca-e10cadb6167e",
               "isHook": true,
               "skipped": false
             }
@@ -253,8 +253,8 @@
               "context": null,
               "code": "expect(add(10,20)).to.be.equal(30);",
               "err": {},
-              "uuid": "b9f3c588-2992-437b-af36-b1a9fa4a5cdc",
-              "parentUUID": "e39fdd4f-d55c-4306-8fb3-7316b19b8034",
+              "uuid": "842f0423-83cd-4162-982f-1a498c3463a7",
+              "parentUUID": "d320fd4d-8ddc-466e-98ca-e10cadb6167e",
               "isHook": false,
               "skipped": false
             },
@@ -271,16 +271,16 @@
               "context": null,
               "code": "expect(sub(20, 10)).to.be.equal(10)",
               "err": {},
-              "uuid": "1cf29580-b69e-41d7-ad15-f141570b9539",
-              "parentUUID": "e39fdd4f-d55c-4306-8fb3-7316b19b8034",
+              "uuid": "8e717c9d-13ed-4036-9e69-15a2ae7998ee",
+              "parentUUID": "d320fd4d-8ddc-466e-98ca-e10cadb6167e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "b9f3c588-2992-437b-af36-b1a9fa4a5cdc",
-            "1cf29580-b69e-41d7-ad15-f141570b9539"
+            "842f0423-83cd-4162-982f-1a498c3463a7",
+            "8e717c9d-13ed-4036-9e69-15a2ae7998ee"
           ],
           "failures": [],
           "pending": [],
@@ -291,7 +291,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "a5031b9b-f68d-422f-8637-28d5e991e747",
+          "uuid": "9374d497-2f2a-4494-98c3-3eb190c0fea0",
           "title": "TestSuite-1",
           "fullFile": "G:\\mocka-demo-projects\\test\\app.spec.js",
           "file": "\\test\\app.spec.js",
@@ -311,15 +311,15 @@
               "context": null,
               "code": "expect(add(2,3)).to.be.equal(5);",
               "err": {},
-              "uuid": "30c78d61-1d6f-4a11-b0d7-d7e6a76d1843",
-              "parentUUID": "a5031b9b-f68d-422f-8637-28d5e991e747",
+              "uuid": "952fa247-1613-4d83-b300-67f4525439d9",
+              "parentUUID": "9374d497-2f2a-4494-98c3-3eb190c0fea0",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "30c78d61-1d6f-4a11-b0d7-d7e6a76d1843"
+            "952fa247-1613-4d83-b300-67f4525439d9"
           ],
           "failures": [],
           "pending": [],
@@ -330,7 +330,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "157eff04-32c3-482c-94ba-499b871f3a53",
+          "uuid": "05b727d2-6cb6-4673-9816-7c49a4a3186b",
           "title": "TestSuite-2",
           "fullFile": "G:\\mocka-demo-projects\\test\\app.spec.js",
           "file": "\\test\\app.spec.js",
@@ -350,15 +350,15 @@
               "context": null,
               "code": "expect(sub(5, 2)).to.be.equal(3)",
               "err": {},
-              "uuid": "be28254c-fd34-42b9-800a-8356ecaafa2b",
-              "parentUUID": "157eff04-32c3-482c-94ba-499b871f3a53",
+              "uuid": "2871080b-102a-4876-af4b-706f6e668f7f",
+              "parentUUID": "05b727d2-6cb6-4673-9816-7c49a4a3186b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "be28254c-fd34-42b9-800a-8356ecaafa2b"
+            "2871080b-102a-4876-af4b-706f6e668f7f"
           ],
           "failures": [],
           "pending": [],
@@ -369,7 +369,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "57210f91-69a9-4e5e-aedd-199ff51c50bb",
+          "uuid": "4748bcb0-3b18-40ae-83cc-15a6563e400f",
           "title": "asyn test suite",
           "fullFile": "G:\\mocka-demo-projects\\test\\asyn.spec.js",
           "file": "\\test\\asyn.spec.js",
@@ -380,39 +380,74 @@
               "title": "aysn-waite hanle",
               "fullTitle": "asyn test suite aysn-waite hanle",
               "timedOut": false,
-              "duration": 284,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 126,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
-              "code": "const res = await axios.get(\"https://reqres.in/api/users/2\")\nexpect(res.data.data.email).to.be.equal(\"janet.weaver@reqres.int\")",
-              "err": {
-                "message": "AssertionError: expected 'janet.weaver@reqres.in' to equal 'janet.weaver@reqres.int'",
-                "estack": "AssertionError: expected 'janet.weaver@reqres.in' to equal 'janet.weaver@reqres.int'\n    at Context.<anonymous> (test\\asyn.spec.js:24:43)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
-                "diff": "- janet.weaver@reqres.in\n+ janet.weaver@reqres.int\n"
-              },
-              "uuid": "c2f8b3f8-d561-413f-b91d-4e5ecad47633",
-              "parentUUID": "57210f91-69a9-4e5e-aedd-199ff51c50bb",
+              "code": "const res = await axios.get(\"https://reqres.in/api/users/2\")\nexpect(res.data.data.email).to.be.equal(\"janet.weaver@reqres.in\")",
+              "err": {},
+              "uuid": "33e06649-0fe5-420d-96a2-a70d5df38b24",
+              "parentUUID": "4748bcb0-3b18-40ae-83cc-15a6563e400f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "c2f8b3f8-d561-413f-b91d-4e5ecad47633"
+          "passes": [
+            "33e06649-0fe5-420d-96a2-a70d5df38b24"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 284,
+          "duration": 126,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "c42b3e50-8fef-4ac5-9132-2ef5dcaeaf1c",
+          "uuid": "e5d07dde-021c-4eb0-b02e-80e50da15ff9",
+          "title": "TestSuite-3",
+          "fullFile": "G:\\mocka-demo-projects\\test\\div.spec.js",
+          "file": "\\test\\div.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "div(10, 5) should be 2",
+              "fullTitle": "TestSuite-3 div(10, 5) should be 2",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(div(10,5)).to.be.equal(2);",
+              "err": {},
+              "uuid": "f9ea4335-3fac-441e-96eb-1019fdc4e78c",
+              "parentUUID": "e5d07dde-021c-4eb0-b02e-80e50da15ff9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f9ea4335-3fac-441e-96eb-1019fdc4e78c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d0180d94-12c3-4eb1-8828-06740046c181",
           "title": "TestSuite-3",
           "fullFile": "G:\\mocka-demo-projects\\test\\multi.spec.js",
           "file": "\\test\\multi.spec.js",
@@ -423,7 +458,7 @@
               "title": "mul(2, 3) should be 6",
               "fullTitle": "TestSuite-3 mul(2, 3) should be 6",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -432,20 +467,20 @@
               "context": null,
               "code": "expect(mul(2,3)).to.be.equal(6);",
               "err": {},
-              "uuid": "ee340631-8e1e-480d-a149-e1a06f81c74d",
-              "parentUUID": "c42b3e50-8fef-4ac5-9132-2ef5dcaeaf1c",
+              "uuid": "80706beb-5b28-4af3-a38b-c4414e46dd14",
+              "parentUUID": "d0180d94-12c3-4eb1-8828-06740046c181",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ee340631-8e1e-480d-a149-e1a06f81c74d"
+            "80706beb-5b28-4af3-a38b-c4414e46dd14"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

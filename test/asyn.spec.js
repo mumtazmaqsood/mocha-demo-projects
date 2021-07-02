@@ -21,7 +21,7 @@ describe('asyn test suite', () => {
     //asyn-awaite way to handle
     it('aysn-waite hanle', async() => {
         const res = await axios.get("https://reqres.in/api/users/2")
-        expect(res.data.data.email).to.be.equal("janet.weaver@reqres.int")
+        expect(res.data.data.email).to.be.equal("janet.weaver@reqres.in")
     })
 
 })
